@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A38DAE63856C53550080F73 /* Pods_Crumbs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16B3FFFF8B754ABFCD31370C /* Pods_Crumbs.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		C161B2781BB647B900A2B18C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2771BB647B900A2B18C /* AppDelegate.swift */; };
 		C161B27A1BB647B900A2B18C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2791BB647B900A2B18C /* FirstViewController.swift */; };
 		C161B27C1BB647B900A2B18C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B27B1BB647B900A2B18C /* SecondViewController.swift */; };
@@ -15,6 +16,34 @@
 		C161B2841BB647B900A2B18C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C161B2821BB647B900A2B18C /* LaunchScreen.storyboard */; };
 		C161B28F1BB647B900A2B18C /* CrumbsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B28E1BB647B900A2B18C /* CrumbsTests.swift */; };
 		C161B29A1BB647B900A2B18C /* CrumbsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2991BB647B900A2B18C /* CrumbsUITests.swift */; };
+		C161B2AA1BB64AC600A2B18C /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2A91BB64AC600A2B18C /* SplashViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2AC1BB6530C00A2B18C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2AB1BB6530C00A2B18C /* LogInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2AE1BB6560E00A2B18C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2AD1BB6560E00A2B18C /* SignUpViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2B01BB66FD100A2B18C /* TripsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2AF1BB66FD100A2B18C /* TripsCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2B21BB6700F00A2B18C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2B11BB6700F00A2B18C /* ProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2B41BB6707700A2B18C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2B31BB6707700A2B18C /* HomeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2B61BB670AE00A2B18C /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2B51BB670AE00A2B18C /* FriendsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2B81BB6712600A2B18C /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2B71BB6712600A2B18C /* NotificationsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2BA1BB67FE400A2B18C /* FriendSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2B91BB67FE400A2B18C /* FriendSearchViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2BC1BB68B3600A2B18C /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2BB1BB68B3600A2B18C /* EditProfileViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2BE1BB68CAC00A2B18C /* FeedStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2BD1BB68CAC00A2B18C /* FeedStackView.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2C01BB68CF000A2B18C /* ProfileStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2BF1BB68CF000A2B18C /* ProfileStackView.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2C41BB6909200A2B18C /* TripDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2C31BB6909200A2B18C /* TripDetailTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2C61BB6932400A2B18C /* EditTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2C51BB6932400A2B18C /* EditTripViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2C81BB6E46400A2B18C /* TrailDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2C71BB6E46400A2B18C /* TrailDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2CA1BB6EF6900A2B18C /* EditTrailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2C91BB6EF6900A2B18C /* EditTrailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2CC1BB6EFA100A2B18C /* CrumbDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2CB1BB6EFA100A2B18C /* CrumbDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2CE1BB6EFD500A2B18C /* EditCrumbViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2CD1BB6EFD500A2B18C /* EditCrumbViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2D21BB6F04100A2B18C /* LogPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2D11BB6F04100A2B18C /* LogPhotosViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2D41BB6F0AD00A2B18C /* PhotoListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2D31BB6F0AD00A2B18C /* PhotoListCollectionViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2D61BB6F13E00A2B18C /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2D51BB6F13E00A2B18C /* PhotoDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2D81BB799E500A2B18C /* AddTripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2D71BB799E500A2B18C /* AddTripViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2DA1BB7C10500A2B18C /* Crumbs_03_03.png in Resources */ = {isa = PBXBuildFile; fileRef = C161B2D91BB7C10500A2B18C /* Crumbs_03_03.png */; settings = {ASSET_TAGS = (); }; };
+		C161B2DC1BB7D79800A2B18C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2DB1BB7D79800A2B18C /* User.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2DE1BB7D7E000A2B18C /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2DD1BB7D7E000A2B18C /* Trip.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2E01BB7D80200A2B18C /* Trail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2DF1BB7D80200A2B18C /* Trail.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2E21BB7D82900A2B18C /* Crumb.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2E11BB7D82900A2B18C /* Crumb.swift */; settings = {ASSET_TAGS = (); }; };
+		C161B2E41BB7D86100A2B18C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = C161B2E31BB7D86100A2B18C /* Image.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +63,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		C161B3091BB7ED3400A2B18C /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		16B3FFFF8B754ABFCD31370C /* Pods_Crumbs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crumbs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F95F6821C7EE1F4D450B34B /* Pods-Crumbs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crumbs.debug.xcconfig"; path = "Crumbs/Pods/Target Support Files/Pods-Crumbs/Pods-Crumbs.debug.xcconfig"; sourceTree = "<group>"; };
+		B08540F8CC5D6FF3B953BE12 /* Pods-Crumbs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crumbs.release.xcconfig"; path = "Crumbs/Pods/Target Support Files/Pods-Crumbs/Pods-Crumbs.release.xcconfig"; sourceTree = "<group>"; };
 		C161B2741BB647B900A2B18C /* Crumbs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crumbs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C161B2771BB647B900A2B18C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C161B2791BB647B900A2B18C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +94,34 @@
 		C161B2951BB647B900A2B18C /* CrumbsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrumbsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C161B2991BB647B900A2B18C /* CrumbsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrumbsUITests.swift; sourceTree = "<group>"; };
 		C161B29B1BB647B900A2B18C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C161B2A91BB64AC600A2B18C /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		C161B2AB1BB6530C00A2B18C /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		C161B2AD1BB6560E00A2B18C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		C161B2AF1BB66FD100A2B18C /* TripsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripsCollectionViewController.swift; sourceTree = "<group>"; };
+		C161B2B11BB6700F00A2B18C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		C161B2B31BB6707700A2B18C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C161B2B51BB670AE00A2B18C /* FriendsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C161B2B71BB6712600A2B18C /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		C161B2B91BB67FE400A2B18C /* FriendSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendSearchViewController.swift; sourceTree = "<group>"; };
+		C161B2BB1BB68B3600A2B18C /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		C161B2BD1BB68CAC00A2B18C /* FeedStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedStackView.swift; sourceTree = "<group>"; };
+		C161B2BF1BB68CF000A2B18C /* ProfileStackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileStackView.swift; sourceTree = "<group>"; };
+		C161B2C31BB6909200A2B18C /* TripDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripDetailTableViewController.swift; sourceTree = "<group>"; };
+		C161B2C51BB6932400A2B18C /* EditTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTripViewController.swift; sourceTree = "<group>"; };
+		C161B2C71BB6E46400A2B18C /* TrailDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrailDetailViewController.swift; sourceTree = "<group>"; };
+		C161B2C91BB6EF6900A2B18C /* EditTrailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditTrailViewController.swift; sourceTree = "<group>"; };
+		C161B2CB1BB6EFA100A2B18C /* CrumbDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrumbDetailViewController.swift; sourceTree = "<group>"; };
+		C161B2CD1BB6EFD500A2B18C /* EditCrumbViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditCrumbViewController.swift; sourceTree = "<group>"; };
+		C161B2D11BB6F04100A2B18C /* LogPhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LogPhotosViewController.swift; path = ../LogPhotosViewController.swift; sourceTree = "<group>"; };
+		C161B2D31BB6F0AD00A2B18C /* PhotoListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoListCollectionViewController.swift; sourceTree = "<group>"; };
+		C161B2D51BB6F13E00A2B18C /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		C161B2D71BB799E500A2B18C /* AddTripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTripViewController.swift; sourceTree = "<group>"; };
+		C161B2D91BB7C10500A2B18C /* Crumbs_03_03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Crumbs_03_03.png; path = ../../../../images/Crumbs_03_03.png; sourceTree = "<group>"; };
+		C161B2DB1BB7D79800A2B18C /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C161B2DD1BB7D7E000A2B18C /* Trip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		C161B2DF1BB7D80200A2B18C /* Trail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trail.swift; sourceTree = "<group>"; };
+		C161B2E11BB7D82900A2B18C /* Crumb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crumb.swift; sourceTree = "<group>"; };
+		C161B2E31BB7D86100A2B18C /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A38DAE63856C53550080F73 /* Pods_Crumbs.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +150,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AC479AFE1B0CAFBE271A5A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16B3FFFF8B754ABFCD31370C /* Pods_Crumbs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF9921838EB957A011940591 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F95F6821C7EE1F4D450B34B /* Pods-Crumbs.debug.xcconfig */,
+				B08540F8CC5D6FF3B953BE12 /* Pods-Crumbs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C161B26B1BB647B900A2B18C = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +174,8 @@
 				C161B28D1BB647B900A2B18C /* CrumbsTests */,
 				C161B2981BB647B900A2B18C /* CrumbsUITests */,
 				C161B2751BB647B900A2B18C /* Products */,
+				BF9921838EB957A011940591 /* Pods */,
+				0AC479AFE1B0CAFBE271A5A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +193,37 @@
 			isa = PBXGroup;
 			children = (
 				C161B2771BB647B900A2B18C /* AppDelegate.swift */,
+				C161B2D11BB6F04100A2B18C /* LogPhotosViewController.swift */,
 				C161B2791BB647B900A2B18C /* FirstViewController.swift */,
-				C161B27B1BB647B900A2B18C /* SecondViewController.swift */,
 				C161B27D1BB647B900A2B18C /* Main.storyboard */,
+				C161B2DB1BB7D79800A2B18C /* User.swift */,
+				C161B2DD1BB7D7E000A2B18C /* Trip.swift */,
+				C161B2DF1BB7D80200A2B18C /* Trail.swift */,
+				C161B2E11BB7D82900A2B18C /* Crumb.swift */,
+				C161B2E31BB7D86100A2B18C /* Image.swift */,
+				C161B2D71BB799E500A2B18C /* AddTripViewController.swift */,
+				C161B2D51BB6F13E00A2B18C /* PhotoDetailViewController.swift */,
+				C161B2D31BB6F0AD00A2B18C /* PhotoListCollectionViewController.swift */,
+				C161B2CD1BB6EFD500A2B18C /* EditCrumbViewController.swift */,
+				C161B2CB1BB6EFA100A2B18C /* CrumbDetailViewController.swift */,
+				C161B2C91BB6EF6900A2B18C /* EditTrailViewController.swift */,
+				C161B2C51BB6932400A2B18C /* EditTripViewController.swift */,
+				C161B2C31BB6909200A2B18C /* TripDetailTableViewController.swift */,
+				C161B2BF1BB68CF000A2B18C /* ProfileStackView.swift */,
+				C161B2BD1BB68CAC00A2B18C /* FeedStackView.swift */,
+				C161B2BB1BB68B3600A2B18C /* EditProfileViewController.swift */,
+				C161B2B91BB67FE400A2B18C /* FriendSearchViewController.swift */,
+				C161B27B1BB647B900A2B18C /* SecondViewController.swift */,
+				C161B2B71BB6712600A2B18C /* NotificationsViewController.swift */,
+				C161B2B51BB670AE00A2B18C /* FriendsViewController.swift */,
+				C161B2B31BB6707700A2B18C /* HomeViewController.swift */,
+				C161B2B11BB6700F00A2B18C /* ProfileViewController.swift */,
+				C161B2AF1BB66FD100A2B18C /* TripsCollectionViewController.swift */,
+				C161B2C71BB6E46400A2B18C /* TrailDetailViewController.swift */,
+				C161B2AD1BB6560E00A2B18C /* SignUpViewController.swift */,
+				C161B2AB1BB6530C00A2B18C /* LogInViewController.swift */,
+				C161B2A91BB64AC600A2B18C /* SplashViewController.swift */,
+				C161B2D91BB7C10500A2B18C /* Crumbs_03_03.png */,
 				C161B2801BB647B900A2B18C /* Assets.xcassets */,
 				C161B2821BB647B900A2B18C /* LaunchScreen.storyboard */,
 				C161B2851BB647B900A2B18C /* Info.plist */,
@@ -135,9 +256,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C161B29E1BB647B900A2B18C /* Build configuration list for PBXNativeTarget "Crumbs" */;
 			buildPhases = (
+				54AC29C2A8DE1BFA599785A1 /* Check Pods Manifest.lock */,
 				C161B2701BB647B900A2B18C /* Sources */,
 				C161B2711BB647B900A2B18C /* Frameworks */,
 				C161B2721BB647B900A2B18C /* Resources */,
+				C4C2B573553B4F7FD7F65F93 /* Embed Pods Frameworks */,
+				D348BEAE33BD98E395F1F2FB /* Copy Pods Resources */,
+				C161B3091BB7ED3400A2B18C /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +321,14 @@
 					C161B2731BB647B900A2B18C = {
 						CreatedOnToolsVersion = 7.0;
 						DevelopmentTeam = 7AGQJRP5K5;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					C161B2891BB647B900A2B18C = {
 						CreatedOnToolsVersion = 7.0;
@@ -237,6 +370,7 @@
 				C161B2841BB647B900A2B18C /* LaunchScreen.storyboard in Resources */,
 				C161B2811BB647B900A2B18C /* Assets.xcassets in Resources */,
 				C161B27F1BB647B900A2B18C /* Main.storyboard in Resources */,
+				C161B2DA1BB7C10500A2B18C /* Crumbs_03_03.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +390,89 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54AC29C2A8DE1BFA599785A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C4C2B573553B4F7FD7F65F93 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Crumbs/Pods/Target Support Files/Pods-Crumbs/Pods-Crumbs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D348BEAE33BD98E395F1F2FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Crumbs/Pods/Target Support Files/Pods-Crumbs/Pods-Crumbs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C161B2701BB647B900A2B18C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C161B2DC1BB7D79800A2B18C /* User.swift in Sources */,
+				C161B2D41BB6F0AD00A2B18C /* PhotoListCollectionViewController.swift in Sources */,
+				C161B2BC1BB68B3600A2B18C /* EditProfileViewController.swift in Sources */,
+				C161B2B01BB66FD100A2B18C /* TripsCollectionViewController.swift in Sources */,
+				C161B2AE1BB6560E00A2B18C /* SignUpViewController.swift in Sources */,
 				C161B27C1BB647B900A2B18C /* SecondViewController.swift in Sources */,
+				C161B2E01BB7D80200A2B18C /* Trail.swift in Sources */,
 				C161B2781BB647B900A2B18C /* AppDelegate.swift in Sources */,
+				C161B2D61BB6F13E00A2B18C /* PhotoDetailViewController.swift in Sources */,
+				C161B2CE1BB6EFD500A2B18C /* EditCrumbViewController.swift in Sources */,
+				C161B2E21BB7D82900A2B18C /* Crumb.swift in Sources */,
+				C161B2CC1BB6EFA100A2B18C /* CrumbDetailViewController.swift in Sources */,
+				C161B2BA1BB67FE400A2B18C /* FriendSearchViewController.swift in Sources */,
+				C161B2D81BB799E500A2B18C /* AddTripViewController.swift in Sources */,
+				C161B2DE1BB7D7E000A2B18C /* Trip.swift in Sources */,
 				C161B27A1BB647B900A2B18C /* FirstViewController.swift in Sources */,
+				C161B2B41BB6707700A2B18C /* HomeViewController.swift in Sources */,
+				C161B2C81BB6E46400A2B18C /* TrailDetailViewController.swift in Sources */,
+				C161B2B61BB670AE00A2B18C /* FriendsViewController.swift in Sources */,
+				C161B2E41BB7D86100A2B18C /* Image.swift in Sources */,
+				C161B2BE1BB68CAC00A2B18C /* FeedStackView.swift in Sources */,
+				C161B2CA1BB6EF6900A2B18C /* EditTrailViewController.swift in Sources */,
+				C161B2C41BB6909200A2B18C /* TripDetailTableViewController.swift in Sources */,
+				C161B2AC1BB6530C00A2B18C /* LogInViewController.swift in Sources */,
+				C161B2B81BB6712600A2B18C /* NotificationsViewController.swift in Sources */,
+				C161B2B21BB6700F00A2B18C /* ProfileViewController.swift in Sources */,
+				C161B2C61BB6932400A2B18C /* EditTripViewController.swift in Sources */,
+				C161B2C01BB68CF000A2B18C /* ProfileStackView.swift in Sources */,
+				C161B2D21BB6F04100A2B18C /* LogPhotosViewController.swift in Sources */,
+				C161B2AA1BB64AC600A2B18C /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,9 +612,11 @@
 		};
 		C161B29F1BB647B900A2B18C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F95F6821C7EE1F4D450B34B /* Pods-Crumbs.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Crumbs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.crumbsapp.Crumbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -414,9 +625,11 @@
 		};
 		C161B2A01BB647B900A2B18C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B08540F8CC5D6FF3B953BE12 /* Pods-Crumbs.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Crumbs/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.crumbsapp.Crumbs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -490,6 +703,7 @@
 				C161B2A01BB647B900A2B18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C161B2A11BB647B900A2B18C /* Build configuration list for PBXNativeTarget "CrumbsTests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +712,7 @@
 				C161B2A31BB647B900A2B18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C161B2A41BB647B900A2B18C /* Build configuration list for PBXNativeTarget "CrumbsUITests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +721,7 @@
 				C161B2A61BB647B900A2B18C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
